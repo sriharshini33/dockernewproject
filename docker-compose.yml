@@ -7,24 +7,21 @@ services:
     deploy:
       replicas: 3
 
- 
-  pen:
+   pen:
     image: harshini7569/pen
     ports:
       - "87:80"
     deploy:
       replicas: 3
  
- 
-  movies:
+   movies:
     image: harshini7569/movies
     ports:
       - "88:80"
     deploy:
       replicas: 3
 
-
- book:
+book:
     image: harshini7569/book
     ports:
       - "89:80"
