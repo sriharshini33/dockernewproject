@@ -5,7 +5,7 @@ services:
     ports:
       - "86:80"
     deploy:
-      replicas: 3
+      replicas: 4
   pen:
     image: harshini7569/pen
     ports:
