@@ -1,28 +1,29 @@
 version: '3'
 services:
  box:
-    image: harshini7569/box
+    image: harshini7569/pen:latest
+
     ports:
       - "86:80"
     deploy:
       replicas: 3
 
    pen:
-    image: harshini7569/pen
+    image: harshini7569/pen:latest
     ports:
       - "87:80"
     deploy:
       replicas: 3
  
    movies:
-    image: harshini7569/movies
+    image: harshini7569/movies:latest
     ports:
       - "88:80"
     deploy:
       replicas: 3
 
 book:
-    image: harshini7569/book
+    image: harshini7569/book:latest
     ports:
       - "89:80"
     deploy:
