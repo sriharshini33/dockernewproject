@@ -5,16 +5,16 @@ services:
     ports:
       - "86:80"
     deploy:
-      replicas: 3
+      replicas: 4
    pen:
     image: harshini7569/pen:latest
     ports:
       - "87:80"
     deploy:
-      replicas: 3
+      replicas: 5
    movies:
     image: harshini7569/movies:latest
     ports:
       - "88:80"
     deploy:
-      replicas: 3
+      replicas: 6
